@@ -813,16 +813,19 @@
           {
             "scores": [
               [{"time": 1643216584278, "isValid": true}],
-              [{"time": 1643216589289, "isValid": true}]
+              [
+                {"time": 1643216589289, "isValid": true},
+                {"time": 1643216600828, "isValid": true}
+              ]
             ],
             "fouls": [[], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 12647,
+            "duration": 33847,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1643216576647, "endTime": null}]
+            "runs": [{"startTime": 1643216576647, "endTime": 1643216610494}]
           }
         ],
         "status": {"result": "unknown"},
@@ -890,16 +893,19 @@
       {
         "scores": [
           [{"time": 1643216584278, "isValid": true}],
-          [{"time": 1643216589289, "isValid": true}]
+          [
+            {"time": 1643216589289, "isValid": true},
+            {"time": 1643216600828, "isValid": true}
+          ]
         ],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 12647,
+        "duration": 33847,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1643216576647, "endTime": null}]
+        "runs": [{"startTime": 1643216576647, "endTime": 1643216610494}]
       }
     ],
     "status": {"result": "unknown"},
