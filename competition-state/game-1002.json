@@ -7,7 +7,10 @@
   "rounds": [
     {
       "scores": [
-        [{"time": 1643215908372, "isValid": true}],
+        [
+          {"time": 1643215908372, "isValid": true},
+          {"time": 1643215932392, "isValid": true}
+        ],
         [
           {"time": 1643215902789, "isValid": true},
           {"time": 1643215915038, "isValid": true},
