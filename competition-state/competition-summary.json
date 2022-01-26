@@ -1,6 +1,6 @@
 {
   "id": "delta-x-2022",
   "name": "Delta X 2022 robot basketball",
-  "robots": [],
+  "robots": [{"id": "bts", "name": "BTS"}],
   "tournament": null
 }
