@@ -4,7 +4,8 @@
   "robots": [
     {"id": "bts", "name": "BTS"},
     {"id": "jordan", "name": "Jordan"},
-    {"id": "kobe", "name": "Kobe"}
+    {"id": "kobe", "name": "Kobe"},
+    {"id": "kurk", "name": "Kurgimopeed"}
   ],
   "tournament": null
 }
