@@ -1002,15 +1002,15 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [[{"time": 1643217973665, "isValid": true}], []],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 7633,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1643217966037, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -1048,93 +1048,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1004,
+    "id": 1005,
     "robots": [
-      {"id": "jordan", "name": "Jordan"},
+      {"id": "tlo_rock", "name": "TLO Rock"},
       {"id": "bts", "name": "BTS"}
     ],
-    "startingBaskets": ["blue", "magenta"],
+    "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [{"time": 1643217191565, "isValid": false}],
-          [
-            {"time": 1643217268246, "isValid": true},
-            {"time": 1643217277659, "isValid": true},
-            {"time": 1643217308294, "isValid": true}
-          ]
-        ],
+        "scores": [[{"time": 1643217973665, "isValid": true}], []],
         "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60002,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1643217259317, "endTime": 1643217319319}]
-      },
-      {
-        "scores": [[], []],
-        "fouls": [[], [{"time": 1643217445930}]],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60109,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 7633,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1643217407978, "endTime": 1643217433335},
-          {"startTime": 1643217461678, "endTime": 1643217496430}
-        ]
-      },
-      {
-        "scores": [[{"time": 1643217592120, "isValid": true}], []],
-        "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60018,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1643217583167, "endTime": 1643217643185}]
-      },
-      {
-        "scores": [[], [{"time": 1643217817738, "isValid": true}]],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 30010,
-        "timeLimit": 30000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1643217716863, "endTime": 1643217739483},
-          {"startTime": 1643217764693, "endTime": 1643217767178},
-          {"startTime": 1643217811776, "endTime": 1643217816681}
-        ]
+        "runs": [{"startTime": 1643217966037, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "bts", "name": "BTS"},
-      "roundWinCount": 1,
-      "roundLossCount": 1,
-      "roundTieCount": 1
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.58, 0.78],
-      [-1.58, -0.78],
-      [-0.71, 1.2],
-      [0.71, -1.2],
-      [-0.05, 0.86],
-      [0.05, -0.86],
-      [-0.49, 0.25],
-      [0.49, -0.25],
-      [1.6, -0.28],
-      [-1.6, 0.28]
+      [-1.99, -0.34],
+      [1.99, 0.34],
+      [-1.56, 1.01],
+      [1.56, -1.01],
+      [-0.37, -0.2],
+      [0.37, 0.2],
+      [0.7, 0.58],
+      [-0.7, -0.58],
+      [-0.31, -0.78],
+      [0.31, 0.78]
     ]
   }
 }
