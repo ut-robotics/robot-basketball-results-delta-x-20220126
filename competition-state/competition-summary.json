@@ -694,7 +694,7 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [[{"time": 1643215654041, "isValid": true}], []],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
@@ -734,109 +734,37 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1001,
-    "robots": [
-      {"id": "tlo_rock", "name": "TLO Rock"},
-      {"id": "jordan", "name": "Jordan"}
-    ],
+    "id": 1002,
+    "robots": [{"id": "kobe", "name": "Kobe"}, {"id": "bts", "name": "BTS"}],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1643214985552, "isValid": true},
-            {"time": 1643215030604, "isValid": true}
-          ],
-          [{"time": 1643214976647, "isValid": true}]
-        ],
-        "fouls": [[{"time": 1643214955378}], [{"time": 1643215011034}]],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60051,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1643214900993, "endTime": 1643214917816},
-          {"startTime": 1643214970733, "endTime": 1643214988190},
-          {"startTime": 1643215023486, "endTime": 1643215049257}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1643215131656, "isValid": true},
-            {"time": 1643215233196, "isValid": true}
-          ],
-          [
-            {"time": 1643215129431, "isValid": true},
-            {"time": 1643215134212, "isValid": true},
-            {"time": 1643215140816, "isValid": true},
-            {"time": 1643215190854, "isValid": true},
-            {"time": 1643215196781, "isValid": true}
-          ]
-        ],
-        "fouls": [[], [{"time": 1643215153383}, {"time": 1643215212364}]],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60095,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1643215123974, "endTime": 1643215143804},
-          {"startTime": 1643215174920, "endTime": 1643215202193},
-          {"startTime": 1643215228700, "endTime": 1643215241692}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1643215441171, "isValid": true},
-            {"time": 1643215441639, "isValid": true},
-            {"time": 1643215442037, "isValid": true},
-            {"time": 1643215448880, "isValid": true}
-          ],
-          [
-            {"time": 1643215332572, "isValid": true},
-            {"time": 1643215446169, "isValid": true},
-            {"time": 1643215450122, "isValid": true}
-          ]
-        ],
+        "scores": [[{"time": 1643215654041, "isValid": true}], []],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 167244,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 0,
         "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1643215274614, "endTime": 1643215275511},
-          {"startTime": 1643215322548, "endTime": 1643215488895}
-        ]
+        "winnerIndex": -1,
+        "runs": []
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "tlo_rock", "name": "TLO Rock"},
-      "roundWinCount": 2,
-      "roundLossCount": 1,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.62, -0.95],
-      [-0.62, 0.95],
-      [-1.69, 0.97],
-      [1.69, -0.97],
-      [1.33, -0.6],
-      [-1.33, 0.6],
-      [1.1, 0.91],
-      [-1.1, -0.91],
-      [0.21, -0.83],
-      [-0.21, 0.83]
+      [-1.07, -0.97],
+      [1.07, 0.97],
+      [0.4, 1],
+      [-0.4, -1],
+      [-1.45, 0.22],
+      [1.45, -0.22],
+      [-1.06, 1.1],
+      [1.06, -1.1],
+      [0.78, -0.27],
+      [-0.78, 0.27]
     ]
   }
 }
