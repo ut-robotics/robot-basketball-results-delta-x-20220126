@@ -812,20 +812,26 @@
           },
           {
             "scores": [
-              [{"time": 1643216584278, "isValid": true}],
+              [
+                {"time": 1643216584278, "isValid": true},
+                {"time": 1643216657207, "isValid": true}
+              ],
               [
                 {"time": 1643216589289, "isValid": true},
                 {"time": 1643216600828, "isValid": true}
               ]
             ],
-            "fouls": [[], []],
+            "fouls": [[{"time": 1643216667872}, {"time": 1643216668850}], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 33847,
+            "duration": 43622,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1643216576647, "endTime": 1643216610494}]
+            "runs": [
+              {"startTime": 1643216576647, "endTime": 1643216610494},
+              {"startTime": 1643216648433, "endTime": 1643216658208}
+            ]
           }
         ],
         "status": {"result": "unknown"},
@@ -892,20 +898,26 @@
       },
       {
         "scores": [
-          [{"time": 1643216584278, "isValid": true}],
+          [
+            {"time": 1643216584278, "isValid": true},
+            {"time": 1643216657207, "isValid": true}
+          ],
           [
             {"time": 1643216589289, "isValid": true},
             {"time": 1643216600828, "isValid": true}
           ]
         ],
-        "fouls": [[], []],
+        "fouls": [[{"time": 1643216667872}, {"time": 1643216668850}], []],
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 33847,
+        "duration": 43622,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1643216576647, "endTime": 1643216610494}]
+        "runs": [
+          {"startTime": 1643216576647, "endTime": 1643216610494},
+          {"startTime": 1643216648433, "endTime": 1643216658208}
+        ]
       }
     ],
     "status": {"result": "unknown"},
