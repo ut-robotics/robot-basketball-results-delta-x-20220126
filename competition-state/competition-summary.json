@@ -383,12 +383,12 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [[{"time": 1643211486239, "isValid": true}], []],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 6,
+            "duration": 20750,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [{"startTime": 1643211465494, "endTime": null}]
@@ -495,12 +495,12 @@
     "hasEnded": false,
     "rounds": [
       {
-        "scores": [[], []],
+        "scores": [[{"time": 1643211486239, "isValid": true}], []],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 6,
+        "duration": 20750,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [{"startTime": 1643211465494, "endTime": null}]
