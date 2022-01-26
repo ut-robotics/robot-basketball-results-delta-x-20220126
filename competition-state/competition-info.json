@@ -51,10 +51,11 @@
       "1007": "secondFinal"
     },
     "noLossQueue": [],
-    "oneLossQueue": [],
+    "oneLossQueue": [{"id": "kobe", "name": "Kobe"}],
     "eliminatedRobots": [
       {"id": "jordan", "name": "Jordan"},
-      {"id": "bts", "name": "BTS"}
+      {"id": "bts", "name": "BTS"},
+      {"id": "tlo_rock", "name": "TLO Rock"}
     ],
     "robotStartingBaskets": {
       "tlo_rock": [
@@ -71,6 +72,6 @@
       "kobe": ["blue", "magenta", "magenta", "blue", "magenta", "magenta"],
       "bts": ["magenta", "blue", "magenta", "blue", "magenta", "blue"]
     },
-    "hasEnded": false
+    "hasEnded": true
   }
 }
