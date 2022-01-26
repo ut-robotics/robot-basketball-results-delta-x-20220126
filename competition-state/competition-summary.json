@@ -912,7 +912,7 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [[{"time": 1643217191565, "isValid": false}], []],
             "fouls": [[], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
@@ -957,125 +957,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1003,
+    "id": 1004,
     "robots": [
-      {"id": "tlo_rock", "name": "TLO Rock"},
-      {"id": "kobe", "name": "Kobe"}
+      {"id": "jordan", "name": "Jordan"},
+      {"id": "bts", "name": "BTS"}
     ],
-    "startingBaskets": ["magenta", "blue"],
+    "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": false,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1643216419069, "isValid": true},
-            {"time": 1643216442164, "isValid": true},
-            {"time": 1643216462288, "isValid": true}
-          ],
-          [
-            {"time": 1643216415797, "isValid": true},
-            {"time": 1643216459742, "isValid": true}
-          ]
-        ],
+        "scores": [[{"time": 1643217191565, "isValid": false}], []],
         "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60061,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1643216409333, "endTime": 1643216469394}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1643216584278, "isValid": true},
-            {"time": 1643216657207, "isValid": true}
-          ],
-          [
-            {"time": 1643216589289, "isValid": true},
-            {"time": 1643216600828, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1643216667872}, {"time": 1643216668850}], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60065,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 0,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1643216576647, "endTime": 1643216610494},
-          {"startTime": 1643216648433, "endTime": 1643216658208},
-          {"startTime": 1643216682388, "endTime": 1643216698831}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1643216813615, "isValid": true},
-            {"time": 1643216882560, "isValid": true}
-          ],
-          [
-            {"time": 1643216811994, "isValid": true},
-            {"time": 1643216883051, "isValid": true},
-            {"time": 1643216894179, "isValid": true},
-            {"time": 1643216903433, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1643216831233}], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60039,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1643216805595, "endTime": 1643216823475},
-          {"startTime": 1643216868168, "endTime": 1643216910327}
-        ]
-      },
-      {
-        "scores": [
-          [{"time": 1643217039813, "isValid": true}],
-          [
-            {"time": 1643217035819, "isValid": true},
-            {"time": 1643217075899, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1643217049962}], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 30080,
-        "timeLimit": 30000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1643217024249, "endTime": 1643217044799},
-          {"startTime": 1643217072770, "endTime": 1643217082300}
-        ]
+        "runs": []
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "kobe", "name": "Kobe"},
-      "roundWinCount": 1,
-      "roundLossCount": 1,
-      "roundTieCount": 1
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.91, 0.93],
-      [-0.91, -0.93],
-      [2.2, 0.49],
-      [-2.2, -0.49],
-      [-1.83, 0.93],
-      [1.83, -0.93],
-      [-0.58, 1.14],
-      [0.58, -1.14],
-      [0.36, -0.31],
-      [-0.36, 0.31]
+      [1.58, 0.78],
+      [-1.58, -0.78],
+      [-0.71, 1.2],
+      [0.71, -1.2],
+      [-0.05, 0.86],
+      [0.05, -0.86],
+      [-0.49, 0.25],
+      [0.49, -0.25],
+      [1.6, -0.28],
+      [-1.6, 0.28]
     ]
   }
 }
