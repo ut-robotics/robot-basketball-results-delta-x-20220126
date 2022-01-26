@@ -40,14 +40,15 @@
       {"id": "kobe", "name": "Kobe"},
       {"id": "bts", "name": "BTS"}
     ],
-    "gameIDs": [1001, 1002, 1003, 1004, 1005, 1006],
+    "gameIDs": [1001, 1002, 1003, 1004, 1005, 1006, 1007],
     "gameTypes": {
       "1001": "noLoss",
       "1002": "noLoss",
       "1003": "noLoss",
       "1004": "oneLoss",
       "1005": "oneLoss",
-      "1006": "firstFinal"
+      "1006": "firstFinal",
+      "1007": "secondFinal"
     },
     "noLossQueue": [],
     "oneLossQueue": [],
@@ -63,10 +64,11 @@
         "magenta",
         "magenta",
         "magenta",
+        "blue",
         "blue"
       ],
       "jordan": ["blue", "magenta", "blue", "blue"],
-      "kobe": ["blue", "magenta", "magenta", "blue", "magenta"],
+      "kobe": ["blue", "magenta", "magenta", "blue", "magenta", "magenta"],
       "bts": ["magenta", "blue", "magenta", "blue", "magenta", "blue"]
     },
     "hasEnded": false
