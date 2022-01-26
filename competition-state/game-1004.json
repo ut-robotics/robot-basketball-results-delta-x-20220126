@@ -1,0 +1,31 @@
+{
+  "id": 1004,
+  "robots": [{"id": "jordan", "name": "Jordan"}, {"id": "bts", "name": "BTS"}],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": false,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.58, 0.78],
+    [-1.58, -0.78],
+    [-0.71, 1.2],
+    [0.71, -1.2],
+    [-0.05, 0.86],
+    [0.05, -0.86],
+    [-0.49, 0.25],
+    [0.49, -0.25],
+    [1.6, -0.28],
+    [-1.6, 0.28]
+  ]
+}
