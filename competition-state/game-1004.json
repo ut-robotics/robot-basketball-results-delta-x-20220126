@@ -3,7 +3,7 @@
   "robots": [{"id": "jordan", "name": "Jordan"}, {"id": "bts", "name": "BTS"}],
   "startingBaskets": ["blue", "magenta"],
   "isTieAllowed": false,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [
@@ -43,15 +43,16 @@
       "runs": [{"startTime": 1643217583167, "endTime": 1643217643185}]
     },
     {
-      "scores": [[], []],
+      "scores": [[], [{"time": 1643217817738, "isValid": true}]],
       "fouls": [[], []],
       "baskets": ["magenta", "blue"],
-      "hasEnded": false,
-      "isConfirmed": false,
+      "hasEnded": true,
+      "isConfirmed": true,
       "roundMaxLength": 30000,
       "runs": [
         {"startTime": 1643217716863, "endTime": 1643217739483},
-        {"startTime": 1643217764693, "endTime": 1643217767178}
+        {"startTime": 1643217764693, "endTime": 1643217767178},
+        {"startTime": 1643217811776, "endTime": 1643217816681}
       ]
     }
   ],
