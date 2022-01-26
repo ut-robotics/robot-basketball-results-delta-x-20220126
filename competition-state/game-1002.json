@@ -3,7 +3,7 @@
   "robots": [{"id": "kobe", "name": "Kobe"}, {"id": "bts", "name": "BTS"}],
   "startingBaskets": ["magenta", "blue"],
   "isTieAllowed": false,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [
@@ -58,10 +58,10 @@
       ],
       "fouls": [[], []],
       "baskets": ["magenta", "blue"],
-      "hasEnded": false,
-      "isConfirmed": false,
+      "hasEnded": true,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
-      "runs": [{"startTime": 1643216189364, "endTime": null}]
+      "runs": [{"startTime": 1643216189364, "endTime": 1643216235390}]
     }
   ],
   "ballPlacement": [
