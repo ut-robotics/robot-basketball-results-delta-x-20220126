@@ -22,14 +22,14 @@
       {"id": "tlo_rock", "name": "TLO Rock"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2, 3, 4],
-    "byes": [{"robotID": "kurk"}, {"robotID": "jordan"}],
+    "gameIDs": [1, 2, 3, 4, 5, 6],
+    "byes": [{"robotID": "kurk"}, {"robotID": "jordan"}, {"robotID": "kobe"}],
     "robotStartingBaskets": {
-      "kurk": ["magenta"],
+      "kurk": ["magenta", "blue"],
       "kobe": ["blue", "magenta"],
-      "bts": ["magenta", "blue"],
-      "jordan": ["blue"],
-      "tlo_rock": ["magenta", "blue"]
+      "bts": ["magenta", "blue", "magenta"],
+      "jordan": ["blue", "magenta"],
+      "tlo_rock": ["magenta", "blue", "blue"]
     },
     "hasEnded": false
   }
