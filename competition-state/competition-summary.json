@@ -1,6 +1,10 @@
 {
   "id": "delta-x-2022",
   "name": "Delta X 2022 robot basketball",
-  "robots": [{"id": "bts", "name": "BTS"}, {"id": "jordan", "name": "Jordan"}],
+  "robots": [
+    {"id": "bts", "name": "BTS"},
+    {"id": "jordan", "name": "Jordan"},
+    {"id": "kobe", "name": "Kobe"}
+  ],
   "tournament": null
 }
