@@ -40,19 +40,16 @@
       {"id": "kobe", "name": "Kobe"},
       {"id": "bts", "name": "BTS"}
     ],
-    "gameIDs": [1001],
-    "gameTypes": {"1001": "noLoss"},
-    "noLossQueue": [
-      {"id": "kobe", "name": "Kobe"},
-      {"id": "bts", "name": "BTS"}
-    ],
-    "oneLossQueue": [],
+    "gameIDs": [1001, 1002],
+    "gameTypes": {"1001": "noLoss", "1002": "noLoss"},
+    "noLossQueue": [{"id": "tlo_rock", "name": "TLO Rock"}],
+    "oneLossQueue": [{"id": "jordan", "name": "Jordan"}],
     "eliminatedRobots": [],
     "robotStartingBaskets": {
       "tlo_rock": ["magenta", "blue", "blue", "magenta"],
       "jordan": ["blue", "magenta", "blue"],
-      "kobe": ["blue", "magenta"],
-      "bts": ["magenta", "blue", "magenta"]
+      "kobe": ["blue", "magenta", "magenta"],
+      "bts": ["magenta", "blue", "magenta", "blue"]
     },
     "hasEnded": false
   }
