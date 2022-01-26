@@ -8,5 +8,123 @@
     {"id": "kurk", "name": "Kurgimopeed"},
     {"id": "tlo_rock", "name": "TLO Rock"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": true
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "kurk", "name": "Kurgimopeed"},
+      {"id": "kobe", "name": "Kobe"},
+      {"id": "bts", "name": "BTS"},
+      {"id": "jordan", "name": "Jordan"},
+      {"id": "tlo_rock", "name": "TLO Rock"}
+    ],
+    "roundCount": 3,
+    "games": [
+      {
+        "id": 1,
+        "robots": [
+          {"id": "kobe", "name": "Kobe"},
+          {"id": "bts", "name": "BTS"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [1.27, -0.61],
+          [-1.27, 0.61],
+          [0.19, 0.77],
+          [-0.19, -0.77],
+          [-0.45, -0.35],
+          [0.45, 0.35],
+          [-0.66, 0.93],
+          [0.66, -0.93],
+          [-2.12, -0.5],
+          [2.12, 0.5]
+        ]
+      },
+      {
+        "id": 2,
+        "robots": [
+          {"id": "jordan", "name": "Jordan"},
+          {"id": "tlo_rock", "name": "TLO Rock"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-1.6, -1.12],
+          [1.6, 1.12],
+          [1.6, -1.43],
+          [-1.6, 1.43],
+          [-0.83, 0.53],
+          [0.83, -0.53],
+          [0.43, 0.54],
+          [-0.43, -0.54],
+          [-1.73, 0.6],
+          [1.73, -0.6]
+        ]
+      }
+    ],
+    "byes": [{"robotID": "kurk"}],
+    "robotScores": [
+      {"robot": {"id": "kobe", "name": "Kobe"}, "score": 0, "tieBreakScore": 0},
+      {"robot": {"id": "bts", "name": "BTS"}, "score": 0, "tieBreakScore": 0},
+      {
+        "robot": {"id": "jordan", "name": "Jordan"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "tlo_rock", "name": "TLO Rock"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "kurk", "name": "Kurgimopeed"},
+        "score": 1,
+        "tieBreakScore": 0
+      }
+    ],
+    "robotStartingBaskets": {
+      "kurk": [],
+      "kobe": ["blue"],
+      "bts": ["magenta"],
+      "jordan": ["blue"],
+      "tlo_rock": ["magenta"]
+    },
+    "hasEnded": false
+  }
 }

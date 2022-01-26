@@ -8,5 +8,29 @@
     {"id": "kurk", "name": "Kurgimopeed"},
     {"id": "tlo_rock", "name": "TLO Rock"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": true
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "kurk", "name": "Kurgimopeed"},
+      {"id": "kobe", "name": "Kobe"},
+      {"id": "bts", "name": "BTS"},
+      {"id": "jordan", "name": "Jordan"},
+      {"id": "tlo_rock", "name": "TLO Rock"}
+    ],
+    "roundCount": 3,
+    "gameIDs": [1, 2],
+    "byes": [{"robotID": "kurk"}],
+    "robotStartingBaskets": {
+      "kurk": [],
+      "kobe": ["blue"],
+      "bts": ["magenta"],
+      "jordan": ["blue"],
+      "tlo_rock": ["magenta"]
+    },
+    "hasEnded": false
+  }
 }
